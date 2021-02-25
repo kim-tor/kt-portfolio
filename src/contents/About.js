@@ -8,7 +8,7 @@ class About extends Component {
             <h1 className="subtopic">About Me</h1>
             <h4>Welcome,</h4>
             <h1>My name is Kimberley Torres</h1>
-            <h3>Full Stack Web <u>Developer</u></h3>
+            <h3>Web Developer</h3>
             <br></br>
             <p> I had always been interested in Software Development but I always let fear hold me back. 
                 I decided to take the leap into this field and I have no regrets! It has been an amazing 

@@ -4,9 +4,8 @@ class Contact extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">Contact Me</h1>
+            <h1 className="subtopic">Let's work together :)</h1>
             <h3>Email  : </h3>
-            <h3>Instagram   :  </h3>
             <Social />
             </div>
             )

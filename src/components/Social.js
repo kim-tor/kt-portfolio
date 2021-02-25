@@ -4,8 +4,8 @@ class Social extends Component {
     render() {
         return (
             <div class="social">
-            <a href="https://github.com/naaficodes" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-            <a href="https://Linkedin.com/in/naafi" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/kim-tor" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://Linkedin.com/in/kim-tor" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
             </div>
             )
         }
