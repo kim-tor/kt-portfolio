@@ -16,18 +16,17 @@ const projectData = [
         title: "Fridge Recipe",
         image: fridge,
         description: "Pick items right from your refrigerator to obtain a recipe",
-        deployed: "",
         github: "https://dchiev.github.io/Fridge-Recipe-App/"
     },
     {
-        titile: "Work it out",
+        title: "Work it out",
         image: workitout,
         description: "Create workouts and track all exercises you have done",
         deployed:"https://kt-fitness-tracker.herokuapp.com/",
         github:"https://github.com/kim-tor/workitout"
     },
     {
-        titile: "Post Meal",
+        title: "Post Meal",
         image: postmeal,
         description: "Share all your meals with fellow foodies",
         deployed: "https://postmeal.herokuapp.com/",
