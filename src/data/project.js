@@ -1,5 +1,4 @@
 import budget from "../img/budget.jpg";
-import fridge from "../img/fridge.jpeg";
 import mindlink from "../img/mindlink.JPG";
 import postmeal from "../img/postmeal.png";
 import workitout from "../img/workitout.jpg";

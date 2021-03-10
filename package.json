@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "react portfolio",
   "private": true,
-  "proxy": "https://localhost.3001/",
+  "homepage": "https://kim-tor.github.io/kt-portfolio/",
   "dependencies": {
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.1",
@@ -14,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
