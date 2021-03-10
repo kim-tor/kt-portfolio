@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 function Card(props) {
     console.log(props);
     return (
+    
         <div className="card">
             <div className="card-header">
                 {props.title}
@@ -26,6 +27,7 @@ function Card(props) {
                 </ul>
             </div>
         </div>
+
     );
 }
 

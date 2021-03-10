@@ -29,7 +29,7 @@ nav
 .condiv
 {
   padding: 100px ;
-  background: linear-gradient(180deg, rgb(177, 103, 238) 50%, rgb(16, 9, 105) 80%);;
+  background: linear-gradient(180deg, rgb(177, 103, 238) 50%, rgb(16, 9, 105) 80%);
   flex:var(--condiv-flex);
 }
 
@@ -53,6 +53,12 @@ nav
   margin-bottom: 30px;
 }
 
+.projects{
+  padding: 100px ;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(180deg, rgb(177, 103, 238) 50%, rgb(16, 9, 105) 80%);
+}
 nav ul{
   font-size:var(--fontsize-nav) ;
   text-align: center;

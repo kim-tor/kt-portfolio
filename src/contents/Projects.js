@@ -9,7 +9,8 @@ class Project extends Component {
 
     render() {
         return (
-            <div className ="condiv">
+            
+            <div className ="projects">
             <br />
           {this.state.project.map(project => (
           <Row>
@@ -22,7 +23,6 @@ class Project extends Component {
             />
             </Row>
           ))}
-        );
         </div>
         )};
 }

@@ -12,12 +12,7 @@ const projectData = [
         deployed: "https://kat-budget-tracker.herokuapp.com/",
         github: "https://github.com/kim-tor/budget_tracker"
     },
-    {
-        title: "Fridge Recipe",
-        image: fridge,
-        description: "Pick items right from your refrigerator to obtain a recipe",
-        github: "https://dchiev.github.io/Fridge-Recipe-App/"
-    },
+
     {
         title: "Work it out",
         image: workitout,
