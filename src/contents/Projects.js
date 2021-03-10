@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import project from "../data/project";
 import Card from "../components/Card/Card";
-
+import Row from "../components/Row";
 class Project extends Component {
     state = {
         project
@@ -9,9 +9,10 @@ class Project extends Component {
 
     render() {
         return (
-        <div className ="condiv projects">
+            <div className ="condiv">
+            <br />
           {this.state.project.map(project => (
-          
+          <Row>
             <Card
                 title={project.title}
                 image={project.image}
@@ -19,10 +20,11 @@ class Project extends Component {
                 deployed={project.deployed}
                 github={project.github}
             />
+            </Row>
           ))}
-        </div>
         );
-    }
+        </div>
+        )};
 }
 
 export default Project;
